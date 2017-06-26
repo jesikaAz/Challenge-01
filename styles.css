@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(images/bg.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.bloc_page {
+    margin: 0 auto;
+    width: 1020px;
+    height: 1400px;
+    background-color: #fff;
+}
+
+.separation {
+    height: 2px;
+    width: 900px;
+    margin-top: -70px;
+    margin-left: 60px;
+    background-color: #e7e7e7;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #090401;
+    height: 380px;
+}
+
+h1 {
+    color: #cfa205;
+    font-size: 133px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 30px;
+    text-align: center;
+}
+
+h2 {
+    color: #cfa205;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -10px;
+}
+
+
+/* MENU */
+
+.menu {
+    height: 80px;
+}
+
+.navbar ul{
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 12px;
+}
+
+.nav-links {
+    color: #e6ede9;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+a:hover {
+    color: #cfa205;
+}
+
+
+/*SOCIAL BAR */
+
+.social-bar {
+    height: 60px;
+    background-color: #e8e8e8;
+}
+
+.icones-bar {
+    width: 180px;
+    margin: 0 auto;
+    padding-top: 3px;
+}
+
+i:hover {
+    color: #cfa205;
+}
+
+.fa {
+    margin-top: 15px;
+    font-size: 27px;
+    padding-left: 10px;
+    color: #999999;
+}
+
+
+/*PRESENTATION*/
+
+.presentation {
+    height: 90px;
+    width: 900px;
+    margin: 85px auto;
+    background-color: #fff;
+}
+
+.headline {
+    color: #7a7a7a;
+    font-family: 'Bitter', serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+/*ARTICLES */
+
+.articles {
+    margin-top: 50px;
+    display:flex;
+    flex-direction: row;
+
+}
+
+article {
+    display:inline-block;
+    height: 350px;
+    width: 250px;
+    margin-left: 80px;
+}
+
+.article-img {
+    height: 220px;
+    width: 260px;
+}
+
+.titre-article {
+    font-size: 18px;
+    font-family: 'Bitter', serif;
+    text-transform: uppercase;
+    height: 18px;
+}
+
+.contenu-articles {
+    height: 600px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #7a7a7a;
+    font-family: 'Bitter', serif;
+}
